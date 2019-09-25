@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,12 @@
     "pg": "^7.12.1",
     "pg-format": "^1.0.4",
     "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
   }
 }
